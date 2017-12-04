@@ -6,7 +6,7 @@
     <rom id="romBIOS" addr="0xfe000" size="0x2000" file="romBIOS.json"/>
     <keyboard id="keyboard"/>
     <video id="videoVGA" model="vga" screenwidth="720" screenheight="350" charset="video.xml">
-        <name>My First PCjs Computer/name>
+        <name>My First PCjs Computer</name>
     </video>
     <chipset id="chipset" model="5150" sw1="01000001" sw2="11110000"/>
 </machine>
