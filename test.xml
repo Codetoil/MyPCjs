@@ -2,10 +2,10 @@
     <computer id="pc" name="IBM PC"/>
     <cpu id="cpu8088" model="8088"/>
     <ram id="ramLow" addr="0x00000" size="0x04000"/>
-    <rom id="romBASIC" addr="0xf6000" size="0x8000" file="https://www.pcjs.org/versions/pcx86/1.37.1/ibm-basic-1.00.json"/>
-    <rom id="romBIOS" addr="0xfe000" size="0x2000" file="https://www.pcjs.org/versions/pcx86/1.37.1/1981-04-24.json"/>
+    <rom id="romBASIC" addr="0xf6000" size="0x8000" file="https://www.pcjs.org/devices/pcx86/rom/5160/basic/BASIC110.json"/>
+    <rom id="romBIOS" addr="0xfe000" size="0x2000" file="https://www.pcjs.org/devices/pcx86/rom/5160/1986-05-09/XTBIOS-REV3.json"/>
     <keyboard id="keyboard"/>
-    <video id="videoMDA" model="mda" screenwidth="720" screenheight="350" charset="https://www.pcjs.org/versions/pcx86/1.37.1/ibm-mda-cga.json">
+    <video id="videoVGA" model="vga" screenwidth="720" screenheight="350" charset="https://www.pcjs.org/devices/pcx86/video/ibm/vga/1986-10-27/256kb-autolockfs.xml">
         <name>Monochrome Display</name>
     </video>
     <chipset id="chipset" model="5150" sw1="01000001" sw2="11110000"/>
