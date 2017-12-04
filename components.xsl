@@ -14,16 +14,16 @@
 <xsl:variable name="SITEHOST">www.pcjs.org</xsl:variable>
 <xsl:variable name="BGNDCOLOR">#FAEBD7</xsl:variable>
 <xsl:template name="componentStyles">
-<link rel="stylesheet" type="text/css" href="/versions/pcx86/1.37.1/components.css"/>
+<link rel="stylesheet" type="text/css" href="pcjs.org/versions/pcx86/1.37.1/components.css"/>
 </xsl:template>
 <xsl:template name="componentScripts">
 <xsl:param name="component"/>
 <xsl:choose>
 <xsl:when test="$APPNAME = 'PDPjs'">
-<script type="text/javascript" src="/versions/pdpjs/{$APPVERSION}/{$component}.js"></script>
+<script type="text/javascript" src="pcjs.org/versions/pdpjs/{$APPVERSION}/{$component}.js"></script>
 </xsl:when>
 <xsl:otherwise>
-<script type="text/javascript" src="/versions/{$APPCLASS}/{$APPVERSION}/{$component}.js"></script>
+<script type="text/javascript" src="pcjs.org/versions/{$APPCLASS}/{$APPVERSION}/{$component}.js"></script>
 </xsl:otherwise>
 </xsl:choose>
 </xsl:template>
