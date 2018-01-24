@@ -4,7 +4,7 @@
 	<ram id="ramLow" addr="0x00000" size="0x10000"/>
 	<rom id="romBASIC" addr="0xf6000" size="0x8000" file="ibm-basic-1.00.json"/>
 	<rom id="romBIOS" addr="0xfe000" size="0x2000" file="1981-04-24.json"/>
-	<rom id="romHDC" addr="0xc8000" size="0x2000" file="/devices/pcx86/hdc/ibm-xebec-1982.json"/>
+	<rom id="romHDC" addr="0xc8000" size="0x2000" file="ibm-xebec-1982.json"/>
 	<keyboard id="keyboard"/>
 	<video id="videoCGA" screenWidth="720" screenHeight="350" smoothing="false" fontROM="ibm-mda-cga.json">
 		<menu>
